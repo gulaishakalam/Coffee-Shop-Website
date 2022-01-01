@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary: rgba(0, 0, 0, 0.65);
+  --secondary: rgba(0, 0, 0, 0.65);
+}
+
+* {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: rgba(38, 112, 36, 0.637);
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  padding: 2.5rem 0;
+  background: linear-gradient(90deg, var(--primary), var(--secondary)),
+    url("../images/body_img.jpg") no-repeat center center;
+  background-size: cover;
+  height: fit-content;
+}
+
+section .heading {
+  width: fit-content;
+  margin: auto;
+  /* margin-top: 3rem; */
+}
+
+section .heading a {
+  text-decoration: none;
+}
+
+section .heading a .web_logo {
+  width: fit-content;
+}
+
+section .heading a .web_logo .logo_image {
+  margin-right: 1rem;
+  width: fit-content;
+}
+
+section .heading a .web_logo .logo_image img {
+  width: 100%;
+}
+
+section .heading a .web_logo .logo_text h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 3em;
+}
+
+section .site_info {
+  text-align: center;
+  padding: 1rem 0;
+  width: 70%;
+  margin: auto;
+}
+
+section .site_info .info_head h1 {
+  font-size: 2.8rem;
+  color: aliceblue;
+}
+
+section .site_info .info_sub h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+section .dev_text {
+  width: 70%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: auto;
+}
+
+section .dev_det {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+section .dev_det .dev-photo {
+  width: fit-content;
+}
+
+section .dev_det .dev-photo img {
+  width: 360px;
+  height: 250px;
+  border: none;
+  border-radius: 10%;
+}
+
+section .dev_det .dev_info {
+  text-align: center;
+  width: 50%;
+  background-color: rgba(99, 21, 21, 0.25);
+  border: none;
+  border-radius: 20px;
+}
+
+section .dev_det .dev_info h1 {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+section .go_back {
+  width: fit-content;
+
+  margin: auto;
+  margin-top: 5rem;
+}
+
+section .go_back a {
+  text-decoration: none;
+}
+
+section .go_back a .nav_back_info {
+  width: fit-content;
+}
+
+section .go_back a .nav_back_info .nav_back_text h3 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+section .go_back a .nav_back_info .nav_back_text h3:hover {
+  color: crimson;
+  transition: 0.5s;
+  letter-spacing: 2px;
+}
+
+footer {
+  margin-top: 10rem;
+  padding: 2rem 0 1rem 0;
+}
+
+footer .footer_text {
+  color: rgba(240, 248, 255, 0.7);
+  text-align: center;
+  font-size: 1.5rem;
+}
+.footers{
+    background:var(--black);
+    text-align: center;
+}
+
+.footers .share{
+    padding:1rem 0;
+}
+
+.footers .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    border:var(--border);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footers .share a:hover{
+    background-color: var(--main-color);
+}
+
+.footers .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    gap:1rem;
+}
+
+.footers .links a{
+    padding:.7rem 2rem;
+    color:#fff;
+    border:var(--border);
+    font-size: 2rem;
+}
+
+.footers .links a:hover{
+    background:var(--main-color);
+}
+
+.footers .credit{
+    font-size: 2rem;
+    color:#fff;
+    font-weight: lighter;
+    padding:1.5rem;
+}
+
+.footers .credit span{
+    color:var(--main-color);
+}
